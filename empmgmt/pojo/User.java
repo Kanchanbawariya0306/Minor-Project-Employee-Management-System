@@ -7,7 +7,7 @@ package empmgmt.pojo;
 
 /**
  *
- * @author VIDIT
+ * @author Kanchan
  */
 public class User {
    public String getUserId() {
