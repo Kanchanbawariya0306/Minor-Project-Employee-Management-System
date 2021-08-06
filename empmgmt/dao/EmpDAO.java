@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author KANCHAN
+ * @author Kanchan
  */
 public class EmpDAO {
     public static boolean addEmployee(Emp e)throws SQLException
