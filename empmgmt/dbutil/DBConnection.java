@@ -17,7 +17,7 @@ public class DBConnection {
        {
             Class.forName("oracle.jdbc.OracleDriver");
             con=DriverManager.getConnection("jdbc:oracle:thin:@//LAPTOP-9TT9F16B:1521/xe", "project", "javase");
-          //  ps=con.prepareStatement("insert into employee values(?,?,?)");
+            //  ps=con.prepareStatement("insert into employee values(?,?,?)");
             JOptionPane.showMessageDialog(null,"Connected succesfully to the DB");
            }
        catch(Exception e)
